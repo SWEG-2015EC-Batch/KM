@@ -1,6 +1,6 @@
 # Problem Analysis
 ### Problem Description
-Make a program that calculates and display the Body Mass Index (BMI) of a person. The program should read the height and weight of a person being given and displays the BMI.
+Make a program that calculates and display the Body Mass Index (BMI) of a person. The program should read the height and weight of a person being given and displays the BMI. <br />
 BMI = weight(in kg) / (height * height(in m))
 
 ### Problem Analysis
@@ -17,9 +17,9 @@ BMI = weight(in kg) / (height * height(in m))
 - Print output message and result
 
 # Algorithm Design/Pseudocode
-Step 1: Start
-Step 2: Input height
-Step 3: Input weight
-Step 4: Calculate BMI = weight / (height * height)
-Step 5: Print BMI
-Step 6: End
+**Step 1:** Start <br />
+**Step 2:** Input height <br />
+**Step 3:** Input weight <br />
+**Step 4:** Calculate BMI = weight / (height * height) <br />
+**Step 5:** Print BMI <br />
+**Step 6:** End 
