@@ -1,4 +1,4 @@
- ALGORITHIM DESIGN BY PSUEDOCODE
+ ALGORITHIM DESIGN BY PSEUDOCODE
 
 1)1. Start
   2. Declare variables Height, Weight
