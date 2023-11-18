@@ -18,3 +18,13 @@ Write a program that finds the result of the expression x**y where the value of 
 **Step 3:** Feed them into the function pow() <br />
 **Step 4:** Print result <br />
 **Step 5:** End
+
+### Flowchart
+
+```mermaid
+  flowchart TD
+A([Start]) --> B[/Read x and y/];
+B --> C["Use pow() function on them"];
+C --> D[/Print result/];
+D --> E([End]);
+```
