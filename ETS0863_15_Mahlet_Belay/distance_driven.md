@@ -25,6 +25,16 @@ Write a program that prompts the capacity in gallons of an automobile fuel tank 
 
 **Step 1:** Start <br />
 **Step 2:** Read distancePerCapacity and capacity of the automobile <br />
-**Step 3:** Calculate distance: capacity \* distancePerCapacity <br />
+**Step 3:** Calculate distance: capacity * distancePerCapacity <br />
 **Step 4:**print distance <br />
-**Step 5:** End
+**Step 5:** End <br />
+
+### Flowchart
+
+```mermaid
+  flowchart TD
+A([Start]) --> B[/Read distancePerCapacity and capacity/];
+B --> C["distance = capacity * distancePerCapacity"];
+C --> D[/Print distance/];
+D --> E([End]);
+```
