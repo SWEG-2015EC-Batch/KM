@@ -18,3 +18,12 @@ Step 2: Read file_size <br />
 Step 3: Calculate time_taken = file_size / byte_per_second <br />
 Step 4: Print time_taken <br />
 Step 5: End
+
+### Flowchart
+```mermaid
+  flowchart TD
+A([Start]) --> B[/Read file_size/];
+B --> C["time_taken = file_size / byte_per_second"];
+C --> D[/Print time_taken/];
+D --> E([End]);
+```
