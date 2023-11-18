@@ -23,3 +23,14 @@ Step 3: Input weight
 Step 4: Calculate BMI = weight / (height * height)
 Step 5: Print BMI
 Step 6: End
+
+### Flowchart
+
+```mermaid
+        flowchart TD
+A([Start]) --> B[/Input height/];
+B --> C[/Input weight/];
+C --> D["BMI = weight / (height * height)"];
+D --> E[/Print BMI/];
+E --> F([End]);
+```
