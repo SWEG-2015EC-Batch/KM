@@ -14,21 +14,21 @@ Output - result <br />
 ### Flowchart
 ```mermaid
     flowchart TD
-A([Start]) --> B[/Input num1/]
-B --> C[/Input num2/]
-C --> D[/Input operation/]
-D --> E{operation = "+"}
-E --True--> D[result = num1 + num2]
-E --False--> F{operation = "-"}
-F --True--> G[result = num1 - num2]
-F --False--> H{operation = "*"}
-H --True--> I[result = num1 * num2]
-H --False--> J{operation = "/"}
-J --True--> K[result = num1 / num2]
-J --False--> M[/Please Input correct operation/]
-D --> N[/Print Result/]
-G --> N
-I --> N
-K --> N
-N --> O([End])
+A([Start]) --> B[/Input num1/];
+B --> C[/Input num2/];
+C --> D[/Input operation/];
+D --> E{operation = "+"};
+E --True--> D[result = num1 + num2];
+E --False--> F{operation = "-"};
+F --True--> G[result = num1 - num2];
+F --False--> H{operation = "*"};
+H --True--> I[result = num1 * num2];
+H --False--> J{operation = "/"};
+J --True--> K[result = num1 / num2];
+J --False--> M[/Please Input correct operation/];
+D --> N[/Print Result/];
+G --> N;
+I --> N;
+K --> N;
+N --> O([End]);
 ```
