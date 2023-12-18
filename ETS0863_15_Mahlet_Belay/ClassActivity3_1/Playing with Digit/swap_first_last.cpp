@@ -21,7 +21,7 @@ int main(void)
     }
 
     cp_num = cp_num - last + first;
-    cp_num = cp_num - (first * pow(10, count - 1)) + (last * pow(10, count - 1)) + 1;
+    cp_num = cp_num - (first * pow(10, count - 1)) + (last * pow(10, count - 1));
 
     cout<<"The number when the first and last digits are swapped is "<<cp_num<<endl;
 
