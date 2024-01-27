@@ -62,7 +62,7 @@ D --> E["Calculate score: + 2 if answer is correct - 1 if incorrect 0 if nothing
 E --> F["Calculate grade"];
 F --> G[/Output students information/];
 G --> H["Compare students grades and store top 10"];
-H --> J["Output top 10 students' scores"];
-J --> H([End]);
+H --> I["Output top 10 students' scores"];
+I --> J([End]);
 ```
 
